@@ -1,0 +1,33 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+ body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    background-image: url("/imagen/Fondo.png");
+    
+ }
+ header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url("/imagen/Fondo.png");
+  color: rgb(228, 228, 238);
+  height: 100px;
+  display: flex;
+  justify-content: space-around; /* Centrar el contenido en el header */
+  align-items: center; /* Alinear verticalmente el contenido */
+}
+.p{
+  text-align: center;
+}
+.container{
+  justify-content: center;
+  text-align: center;
+}
+ button{
+  width: 100px;
+  padding: 10px;
+  border: radius 10px; ;
+ }

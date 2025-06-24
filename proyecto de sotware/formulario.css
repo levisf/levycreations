@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 600px;
+   width: 200px, letf 50%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   background-image: url("/imagen/Fondo.png");
+   background-image: repeat;
+   
+}
+
+form{
+  position: absolute;
+    min-width: 280px;
+    max-width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px;
+    color:#150202;
+    border: 1px solid black;
+}
+ .contenedor-3d {
+    perspective: 800px; /* Ajusta este valor para controlar la distancia */
+          /* Opcional: para centrar el elemento */
+    position: relative;
+    transform-style: preserve-3d; /* Necesario para que los hijos hereden 3D */
+ }
+h1::after{
+    content: "";
+    position: center;
+    height: 3px;
+    border-radius: 3px;
+    background-color: black;
+    width: 120px;
+    left: 0;
+    bottom: 0;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+.acuerdo{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background-color: blue;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: #1bbd02;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+}
+.link{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+
+}
